@@ -1,0 +1,22 @@
+# Authentication and sensitive local state
+auth.json
+**/auth.json
+.env
+.env.*
+!.env.example
+*.session
+*.session-journal
+*.key
+*.pem
+secrets/
+credentials/
+
+# Local dependencies and generated files
+node_modules/
+dist/
+npm-cache/
+tmp/
+logs/
+*.log
+.DS_Store
+Thumbs.db
