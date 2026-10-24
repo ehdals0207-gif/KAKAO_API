@@ -110,6 +110,6 @@ if (mode === '--preview') {
     client.disconnect();
   });
 } else {
-  console.error('사용법: node .\03-burst-test.cjs --preview 또는 --send');
+  console.error('사용법: node 03-burst-test.cjs --preview 또는 --send');
   process.exitCode = 1;
 }
